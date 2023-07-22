@@ -1,3 +1,6 @@
+**Read in other languages: [Русский](README.md), [Polska](README.pl.md),
+[English](README.en.md), [Spanish](README.es.md).**
+
 # React homework template
 
 Этот проект был создан при помощи
@@ -5,44 +8,18 @@
 и настройки дополнительных возможностей
 [обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Создание репозитория по шаблону
-
-Используй этот репозиторий организации GoIT как шаблон для создания репозитория
-своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
-`«Create a new repository»`, как показано на изображении.
-
-![Creating repo from a template step 1](./assets/template-step-1.png)
-
-На следующем шаге откроется страница создания нового репозитория. Заполни поле
-его имени, убедись что репозиторий публичный, после чего нажми кнопку
-`«Create repository from template»`.
-
-![Creating repo from a template step 2](./assets/template-step-2.png)
-
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
-
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
-
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
-опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
-необходимо для автоматизации процесса деплоя проекта.
-
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
-
-Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
-репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
-клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
-GitHub.
-
-## Подготовка к работе
+## Подготовка нового проекта
 
 1. Убедись что на компьютере установлена LTS-версия Node.js.
    [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Установи базовые зависимости проекта командой `npm install`.
-3. Запусти режим разработки, выполнив команду `npm start`.
-4. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
+2. Клонируй этот репозиторий.
+3. Измени имя папки с `react-homework-template` на имя своего проекта.
+4. Создай новый пустой репозиторий на GitHub.
+5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
+   [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
+6. Установи базовые зависимости проекта командой `npm install`.
+7. Запусти режим разработки, выполнив команду `npm start`.
+8. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
    Эта страница будет автоматически перезагружаться после сохранения изменений в
    файлах проекта.
 
@@ -75,7 +52,7 @@ GitHub.
 Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
 выпадающем окне перейти по ссылке `Details`.
 
-![Deployment status](./assets/deploy-status.png)
+![Deployment status](./assets/status.png)
 
 ### Живая страница
 
@@ -92,10 +69,11 @@ GitHub.
 
 Если приложение использует библиотеку `react-router-dom` для маршрутизации,
 необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеш в начале строки обязателен.
+`basename` точное название твоего репозитория. Слеши в начале и конце строки
+обязательны.
 
 ```jsx
-<BrowserRouter basename="/your_repo_name">
+<BrowserRouter basename="/your_repo_name/">
   <App />
 </BrowserRouter>
 ```

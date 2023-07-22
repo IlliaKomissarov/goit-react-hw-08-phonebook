@@ -4,43 +4,22 @@
 
 Ten projekt został stworzony przy pomocy
 [Create React App](https://github.com/facebook/create-react-app). W celu
-zapoznania się z konfiguracją dodatkowych opcji
+zapoznania się z ustawieniami dodatkowych opcji
 [zobacz dokumentację](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Utworzenie repozytorium zgodnie z szablonem
-
-Wykorzystaj to repozytorium organizacji GoIT jako szablon do utworzenia
-repozytorium własnego projektu. W tym celu kliknij na przycisk
-`"Use this template"` i wybierz opcję `"Create a new repository"`, jak pokazano
-na rysunku.
-
-![Creating repo from a template step 1](./assets/template-step-1.png)
-
-W następnym kroku otworzy się strona utworzenia nowego repozytorium. Wypełnij
-pole nazwy i upewnij się, że repozytorium jest publiczne, a następnie kliknij na
-przycisk `"Create repository from template"`.
-
-![Creating repo from a template step 2](./assets/template-step-2.png)
-
-Po utworzeniu repozytorium, należy przejść do jego ustawień w zakładce `Settings` > `Actions` > `General`, jak pokazano na rysunku.
-
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
-
-Przescrolluj stronę do samego końca, w sekcji `«Workflow permissions»` wybierz opcję `«Read and write permissions»` i zaznacz pole w checkboksie. Jest to niezbędne do automatyzacji procesu deploymentu projektu.
-
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
-
-Teraz masz własne repozytorium projektu, ze strukturą folderów i plików jak w
-szablonie. Pracuj z nim jak z innymi repozytoriami, klonuj je na swój komputer,
-pisz kod, rób commity i wysyłaj na GitHub.
-
-## Przygotowanie do pracy
+## Przygotowanie nowego projektu
 
 1. Upewnij się, że na komputerze zainstalowana jest wersja LTS Node.js.
    [Ściągnij i zainstaluj](https://nodejs.org/en/), jeżeli trzeba.
-2. Utwórz bazowe zależności projektu przy pomocy polecenia `npm install`.
-3. Włącz tryb pracy, wykonując polecenie `npm start`.
-4. Przejdź w przeglądarce pod adres
+2. Sklonuj to repozytorium.
+3. Zmień nazwę folderu z `react-homework-template` na nazwę swojego projektu.
+4. Utwórz nowe, puste repozytorium na GitHub.
+5. Otwórz projekt w VSCode, włącz terminal i połącz projekt z repozytorium
+   GitHub
+   [zgodnie z instrukcją](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
+6. Utwórz bazowe zależności projektu przy pomocy polecenia `npm install`.
+7. Włącz tryb pracy, wykonując polecenie `npm start`.
+8. Przejdź w przeglądarce pod adres
    [http://localhost:3000](http://localhost:3000). Ta strona będzie
    automatycznie przeładowywać się po zapisaniu zmian w plikach projektu.
 
@@ -76,7 +55,7 @@ identyfikatora.
 Bardziej szczegółowe informacje o statusie można zobaczyć po kliknięciu na
 ikonkę i przejściu w wyskakującym oknie do odnośnika `Details`.
 
-![Deployment status](./assets/deploy-status.png)
+![Deployment status](./assets/status.png)
 
 ### Deployowana strona
 
